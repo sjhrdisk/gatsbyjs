@@ -81,6 +81,7 @@ const IndexPage = () => (
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
+	  <meta name="naver-site-verification" content="2c3652adef318997e51cbc6847d03e9962a2477a" />
       <h1>
         Welcome to <b>Gatsby!</b>
       </h1>
