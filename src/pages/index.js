@@ -3,69 +3,8 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import Seo from "../components/seo"
+
 import * as styles from "../components/index.module.css"
-
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-  },
-  {
-    text: "Examples",
-    url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
-    description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-  },
-]
-
-const samplePageLinks = [
-  {
-    text: "Page 2",
-    url: "page-2",
-    badge: false,
-    description:
-      "A simple example of linking to another page within a Gatsby site",
-  },
-  { text: "TypeScript", url: "using-typescript" },
-  { text: "Server Side Rendering", url: "using-ssr" },
-  { text: "Deferred Static Generation", url: "using-dsg" },
-]
-
-const moreLinks = [
-  { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
-  {
-    text: "Documentation",
-    url: "https://gatsbyjs.com/docs/",
-  },
-  {
-    text: "Starters",
-    url: "https://gatsbyjs.com/starters/",
-  },
-  {
-    text: "Showcase",
-    url: "https://gatsbyjs.com/showcase/",
-  },
-  {
-    text: "Contributing",
-    url: "https://www.gatsbyjs.com/contributing/",
-  },
-  { text: "Issues", url: "https://github.com/gatsbyjs/gatsby/issues" },
-]
 
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
@@ -93,9 +32,11 @@ const IndexPage = () => (
 
 	  
       <h1>
-        Welcome to <b>Gatsby!</b>
+        위대한<b>개츠비</b>
       </h1>
-    
+	<p>튜토리얼 ↗<br />웹 개발을 처음 접하는 경우 시작하기에 좋은 곳입니다. 첫 번째 Gatsby 사이트를 설정하는 과정을 안내하도록 설계되었습니다.</p>
+
+
 <ul>
 <li><a href="http://d-cigar.com">폰테크</a></li>
 <li><a href="http://d-cigar.com/2-4">폰테크</a></li>
@@ -121,12 +62,9 @@ const IndexPage = () => (
 </ul>
 	
 	
-    </div>
 	
-	
-	===================================
-	
-	
+	<p>예시 ↗<br />Gatsby 사이트 내에서 특정 작업을 수행하는 방법을 보여주는 매우 기본적인 것부터 복잡하고 완전한 것까지 다양한 웹사이트 모음입니다.</p>
+
 <ul>
 
 <li><a href="http://livemedia-soft.com/19309?ckattempt=1">네이버 상위노출</a></li>
@@ -146,8 +84,8 @@ const IndexPage = () => (
 </ul>
 	
 	
-	===================================
-	
+	<p>플러그인 라이브러리 ↗<br />놀라운 개발자 커뮤니티에서 구축한 수천 개의 플러그인으로 기능을 추가하고 Gatsby 사이트 또는 앱을 사용자 지정하는 방법을 알아보세요.</p>
+
 	
 	
 <ul>
@@ -177,6 +115,16 @@ const IndexPage = () => (
 
 </ul>
 	
+	
+	<p>구축 및 호스팅 ↗<br />이제 세상에 보여줄 준비가 되었습니다! Gatsby 사이트에 강력한 기능 제공: Gatsby Cloud에서 구축 및 호스팅. 무료로 시작하세요!</p>
+
+	
+	
+	
+	
+	
+	
+    </div>
 	
 	
 	
@@ -209,11 +157,5 @@ const IndexPage = () => (
   </Layout>
 )
 
-/**
- * Head export to define metadata for the page
- *
- * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
- */
-export const Head = () => <Seo title="Home" />
 
 export default IndexPage
