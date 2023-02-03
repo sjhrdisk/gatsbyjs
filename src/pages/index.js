@@ -81,7 +81,17 @@ const IndexPage = () => (
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
-	  <meta name="naver-site-verification" content="2c3652adef318997e51cbc6847d03e9962a2477a" />
+	 
+<meta name="google-site-verification" content="tn5loIBIXiTtt4DwWJlM733BJghahS8tL4S_Gsy3RLI" />
+<meta name="naver-site-verification" content="2c3652adef318997e51cbc6847d03e9962a2477a" />
+
+<title>폰앱gatsbyjsmain40789</title>
+<meta name="description" itemprop="description" content="폰앱gatsbyjsmain40789폰앱gatsbyjsmain40789" />
+
+<meta property="og:title" content="폰앱gatsbyjsmain40789" />
+<meta property="og:description" content="폰앱gatsbyjsmain40789폰앱gatsbyjsmain40789" />
+
+	  
       <h1>
         Welcome to <b>Gatsby!</b>
       </h1>
